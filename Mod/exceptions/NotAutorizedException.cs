@@ -6,9 +6,7 @@ namespace Mod.exceptions
     [Serializable]
     public class NotAutorizedException : Exception
     {
-        public NotAutorizedException()
-        {
-        }
+
 
         public NotAutorizedException(string message)
         {

@@ -5,7 +5,7 @@ namespace Mod
 {
     internal class InvalidHashException : Exception
     {
-        public InvalidHashException() { }
+
         public InvalidHashException(string message)
             : base(message) { }
         public InvalidHashException(string message, Exception inner)
@@ -14,7 +14,7 @@ namespace Mod
 
     internal class CannotPerformOperationException : Exception
     {
-        public CannotPerformOperationException() { }
+
         public CannotPerformOperationException(string message)
             : base(message) { }
         public CannotPerformOperationException(string message, Exception inner)

@@ -9,9 +9,6 @@ public class CameraShake : MonoBehaviour
     private bool flip;
     private float R;
 
-    private void FixedUpdate()
-    {
-    }
 
     private void shakeUpdate()
     {
@@ -33,9 +30,6 @@ public class CameraShake : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-    }
 
     public void startShake(float R, float duration, float decay = 0.95f)
     {
@@ -47,8 +41,5 @@ public class CameraShake : MonoBehaviour
         }
     }
 
-    private void Update()
-    {
-    }
 }
 

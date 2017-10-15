@@ -18,8 +18,5 @@ public class LevelTriggerCheckPoint : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-    }
 }
 

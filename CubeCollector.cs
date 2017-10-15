@@ -5,9 +5,6 @@ public class CubeCollector : MonoBehaviour
 {
     public int type;
 
-    private void Start()
-    {
-    }
 
     private void Update()
     {

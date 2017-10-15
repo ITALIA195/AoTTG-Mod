@@ -11,12 +11,6 @@ public class SettingReciveInput : MonoBehaviour
         base.transform.Find("Label").gameObject.GetComponent<UILabel>().text = "*wait for input";
     }
 
-    private void Start()
-    {
-    }
 
-    private void Update()
-    {
-    }
 }
 

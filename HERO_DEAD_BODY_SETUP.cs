@@ -115,9 +115,6 @@ public class HERO_DEAD_BODY_SETUP : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-    }
 
     private void Update()
     {

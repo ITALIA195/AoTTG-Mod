@@ -21,12 +21,6 @@ public class LevelTeleport : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-    }
 
-    private void Update()
-    {
-    }
 }
 

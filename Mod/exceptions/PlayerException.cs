@@ -6,10 +6,7 @@ namespace Mod.exceptions
     [Serializable]
     public class PlayerException : System.Exception
     {
-        public PlayerException()
-        {
 
-        }
 
         public PlayerException(string message)
         {

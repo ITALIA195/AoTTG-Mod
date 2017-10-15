@@ -20,8 +20,5 @@ public class LevelTriggerGas : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-    }
 }
 

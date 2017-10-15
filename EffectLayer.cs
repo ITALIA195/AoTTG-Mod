@@ -314,9 +314,6 @@ public class EffectLayer : MonoBehaviour
         return list;
     }
 
-    private void OnDrawGizmosSelected()
-    {
-    }
 
     public void RemoveActiveNode(EffectNode node)
     {

@@ -13,8 +13,5 @@ public class PVPchkPtPreset : MonoBehaviour
     public float titanPt;
     public int titanPtMax = 15;
 
-    private void START()
-    {
-    }
 }
 

@@ -6,10 +6,7 @@ namespace Mod.exceptions
     [Serializable]
     public class ArgumentException : System.Exception
     {
-        public ArgumentException()
-        {
 
-        }
 
         public ArgumentException(string message)
         {

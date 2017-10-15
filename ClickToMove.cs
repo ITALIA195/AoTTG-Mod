@@ -6,9 +6,6 @@ public class ClickToMove : MonoBehaviour
     public int smooth;
     private Vector3 targetPosition;
 
-    public void Main()
-    {
-    }
 
     public void Update()
     {

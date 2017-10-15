@@ -6,10 +6,7 @@ namespace Mod.exceptions
     [Serializable]
     public class TargetCantBeLocalException : System.Exception
     {
-        public TargetCantBeLocalException()
-        {
 
-        }
 
         public TargetCantBeLocalException(string message)
         {

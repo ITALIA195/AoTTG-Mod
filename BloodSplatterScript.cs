@@ -10,9 +10,6 @@ public class BloodSplatterScript : MonoBehaviour
     public Transform bloodRotation;
     public int maxAmountBloodPrefabs = 20;
 
-    public void Main()
-    {
-    }
 
     public void Update()
     {

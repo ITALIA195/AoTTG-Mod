@@ -3,9 +3,7 @@ using UnityEngine;
 
 public class BillboardScript : MonoBehaviour
 {
-    public void Main()
-    {
-    }
+
 
     public void Update()
     {

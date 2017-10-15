@@ -93,8 +93,5 @@ public class XffectCache : MonoBehaviour
         return list;
     }
 
-    private void Start()
-    {
-    }
 }
 

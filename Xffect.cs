@@ -140,9 +140,6 @@ public class Xffect : MonoBehaviour
         }
     }
 
-    private void OnDrawGizmosSelected()
-    {
-    }
 
     public void SetClient(Transform client)
     {

@@ -546,9 +546,6 @@ public class iTween : MonoBehaviour
         this.thisTransform.localScale += this.vector3s[2];
     }
 
-    private void ApplyStabTargets()
-    {
-    }
 
     private void ApplyVector2Targets()
     {
@@ -1275,9 +1272,6 @@ public class iTween : MonoBehaviour
         return num;
     }
 
-    private void DisableKinematic()
-    {
-    }
 
     private void Dispose()
     {
@@ -1905,9 +1899,6 @@ public class iTween : MonoBehaviour
         return ((end * Mathf.Sin(value * 1.570796f)) + start);
     }
 
-    private void EnableKinematic()
-    {
-    }
 
     public static void FadeFrom(GameObject target, Hashtable args)
     {
