@@ -1,0 +1,70 @@
+﻿== Modules ==
+module.advancedlog.name = Advanced Logging
+module.advancedlog.description = Abilita il logging avanzato.
+module.antiban.name = Antiban (Reconnect)
+module.antiban.description = Impedisce di essere bannati da RC's user.
+module.antibarrierkill.name = AntiBarrierKill
+module.antibarrierkill.description = Impedisce il morire da barriere rosse.
+module.antiguest.name = AntiGuest
+module.antiguest.description = Espelle tutti i guest dal server. (NonRC only)
+module.antiguest.kickmessage = [FF0000]Kicked by antiguest
+module.doubledamage.name = Double Damage
+module.doubledamage.description = Moltiplica il danno sui titani per 2.
+module.ignorecountdown.name = Ignore CountDown
+module.ignorecountdown.description = Le abilita non avranno bisogno di un tempo di ricarica.
+module.infiniteblade.name = Infinite Blade
+module.infiniteblade.description = Le spade non si danneggieranno più.
+module.infinitegas.name = Infinite Gas
+module.infinitegas.description = Il gas non finirà più.
+module.logonfile.name = Write logs
+module.logonfile.description = Write the logs onto file.
+module.nameanimation.name = Name Animation
+module.nameanimation.description = Abilita l'animazione del nome.
+module.pvpeverywhere.name = PvP Everywhere
+module.pvpeverywhere.description = Abilita il pvp in qualsiasi mappa.
+module.showconsole.name = Show Console
+module.showconsole.description = Abilita la console.
+module.wallhack.name = Wallhack
+module.wallhack.description = Abilita la vesione dei player cross-wall.
+module.passthrough.name = PassThrough
+module.passthrough.description = Ti permette di attraversare i muri.
+module.fly.name = Fly
+module.fly.description = Ti permette di volare.
+module.fireworks.name = Fireworks! Yay
+module.fireworks.description = Spam is awesome!
+module.flash.name = Flash
+module.flash.description = Teleports you where you are looking
+module.scrollmoves.name = ScrollMoves
+module.daylight.name = Daylight
+module.daylight.description = Set the daylight to the choosen.
+module.scrollmoves.description = Mouse scrolling moves you!
+module.immortality.name = Immortality
+module.immortality.description = Non puoi morire
+module.antigrab.name = AntiGrab
+module.antigrab.description = Non puoi essere grabbato dai titani.
+module.certifykill.name = Certify Kill
+module.certifykill.description = Controlla che hai fatto una kill legittima.
+module.musicplayer.name = Music Player
+module.musicplayer.description = Music based on your velocity.
+module.chatspammer.name = ChatSpammer
+module.chatspammer.description = Spamma in chat
+
+== Messages ==
+message.banexemption.text = {0} ha provato a bannarti.
+message.photonplayerconnected.text = <color=#00FF00>{0} joined!</color>
+message.photonplayerdisconnected.text = <color=#FF0000>{0} left!</color>
+message.playernotfound.text = Il player non e' stato trovato.
+message.exeptionthrown.text = Exception thrown {0}
+message.commandexecutionerror.text = <color=#FF0000>Errore:</color> L'esecuzione del comando "{0}" e' terminata in maniera inaspettata.
+message.gameupdate.succeed.text = The game has updated! Please restart the game for apply the changes!
+message.gameupdate.noneed.text = You have the latest version of the game!
+
+== Gui ==
+gui.singleplayer.button.text = Singleplayer
+gui.multiplayer.button.text = Multiplayer
+gui.quit.button.text = Quit
+
+== Filters ==
+blocked.dodgebot.message = Il dodgebot ha provato a resettarti le prop!
+blocked.roast.message = {0} ha provato a roastarti!
+blocked.killobjectrpc.message = HERO.killObject e' stato bloccato. (Sent by {0})

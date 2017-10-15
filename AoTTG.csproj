@@ -1,0 +1,65 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net35</TargetFramework>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OutputPath>C:\Users\utente\Desktop\AoTTG_Data\Managed\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <OutputType>Library</OutputType>
+    <TargetFrameworkProfile />
+    <RootNamespace />
+    <PackageId>Hawk Mod</PackageId>
+    <Version>3.6.2</Version>
+    <Authors>Hawk</Authors>
+    <Company />
+    <Product />
+    <Description>Mod for ("Attack on Titan Tribute Game" by Feng) created by $(Author)</Description>
+    <Copyright>Copyright 2013-2018 Hawk of the Death</Copyright>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>DEBUG</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Mod\resources\image.png" />
+    <None Remove="Mod\resources\messages.lang" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Mod\resources\image.png" />
+    <EmbeddedResource Include="Mod\resources\messages.lang" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\AoTTG_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript">
+      <HintPath>..\AoTTG_Data\Managed\Assembly-UnityScript.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>..\AoTTG_Data\Managed\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="Boo.Lang">
+      <HintPath>..\AoTTG_Data\Managed\Boo.Lang.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\AoTTG_Data\Managed\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>..\AoTTG_Data\Managed\Mono.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>..\AoTTG_Data\Managed\Photon3Unity3D.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\AoTTG_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\AoTTG_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityScript.Lang">
+      <HintPath>..\AoTTG_Data\Managed\UnityScript.Lang.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
