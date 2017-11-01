@@ -194,7 +194,8 @@ namespace Mod.gui
             };
 
             if (PhotonNetwork.connectionStatesDetailed != PeerStates.JoinedLobby)
-                PhotonNetwork.ConnectToMaster("127.0.0.1", 5055, FengGameManagerMKII.applicationId, UIMainReferences.version);
+                PhotonNetwork.ConnectToMaster("app-eu.exitgamescloud.com", 5055, FengGameManagerMKII.applicationId, UIMainReferences.version);
+//                PhotonNetwork.ConnectToMaster("127.0.0.1", 5055, FengGameManagerMKII.applicationId, UIMainReferences.version);
             return window =>
             {
                 if (GUI.GetNameOfFocusedControl() != "Search" && string.IsNullOrEmpty(_filter))

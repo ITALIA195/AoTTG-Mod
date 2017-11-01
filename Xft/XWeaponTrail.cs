@@ -305,6 +305,10 @@ namespace Xft
             public Vector3 PointEnd;
             public Vector3 PointStart;
 
+            public Element()
+            {
+                
+            }
 
             public Element(Vector3 start, Vector3 end)
             {

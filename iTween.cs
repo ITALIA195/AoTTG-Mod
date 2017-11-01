@@ -3043,7 +3043,7 @@ public class iTween : MonoBehaviour
 
                     case 9:
                         this.GenerateStabTargets();
-                        this.apply = new ApplyTween(this.ApplyStabTargets);
+                        this.apply = new ApplyTween(() => {}); // dunno what the fuck this should do
                         break;
                 }
             }
@@ -3705,14 +3705,12 @@ public class iTween : MonoBehaviour
 
     private void OnDisable()
     {
-        this.DisableKinematic();
     }
 
     private void OnEnable()
     {
         if (this.isRunning)
         {
-            this.EnableKinematic();
         }
         if (this.isPaused)
         {
@@ -4857,7 +4855,6 @@ public class iTween : MonoBehaviour
 
     private void TweenLoop()
     {
-        this.DisableKinematic();
         switch (this.loopType)
         {
             case LoopType.loop:
@@ -4895,7 +4892,6 @@ public class iTween : MonoBehaviour
         }
         if ((((this.type == "move") || (this.type == "scale")) || ((this.type == "rotate") || (this.type == "punch"))) || (((this.type == "shake") || (this.type == "curve")) || (this.type == "look")))
         {
-            this.EnableKinematic();
         }
         this.isRunning = true;
     }
